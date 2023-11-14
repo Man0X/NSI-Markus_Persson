@@ -35,7 +35,7 @@ h1 {
 
 p {
     font-size: 25px;
-    margin: 40px;
+    margin: 20px;
 }
 
 a {
@@ -127,6 +127,20 @@ nav {
 }
 
 .img-photo {
-    width: 40%;
+    width: 300px;
     height: auto;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: #526D82 15px solid;
+    border-radius: 50%;
+    padding: 45px;
 }

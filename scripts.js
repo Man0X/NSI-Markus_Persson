@@ -1,6 +1,6 @@
 let kingMiniAnchorDef = document.getElementById("kingMiniAnchorDef")
 let kingMiniAnchor = document.getElementById("kingMiniAnchor")
 
-kingMiniAnchor.addEventListener("click" , function (e) {
+kingMiniAnchor.addEventListener("click" , () => {
     kingMiniAnchorDef.classList.toggle("invisible")
 });
